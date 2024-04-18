@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .nav-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .price-filter, .type-filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-input, .type-input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .price-input:focus, .type-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
